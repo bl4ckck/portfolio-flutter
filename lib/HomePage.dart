@@ -57,7 +57,7 @@ class HomePage extends StatelessWidget {
                         color: '#E707EF',
                         textCenter: true,
                       ),
-                      Image.asset('images/guitar.gif'),
+                      Image.network('https://i.ibb.co/3Y7MZHc/guitar.gif'),
                       ButtonClassic(
                           title: 'Watch on Youtube',
                           url: 'https://www.youtube.com/watch?v=WhH-Nkoe5qY'),

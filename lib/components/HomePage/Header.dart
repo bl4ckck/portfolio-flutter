@@ -14,8 +14,8 @@ class Header extends StatelessWidget {
   Widget build(BuildContext context) {
     return Stack(
       children: <Widget>[
-        Image.asset(
-          'images/dolphin.jpg',
+        Image.network(
+          'https://i.ibb.co/SJSLQ27/dolphin.jpg',
           width: sizingInformation.localWidgetSize.width / 2 + 300,
         ),
         Container(
@@ -62,8 +62,8 @@ class Header extends StatelessWidget {
                   sizingInformation: sizingInformation,
                   widgets: <Widget>[
                     SizedBox(height: 15),
-                    Image.asset(
-                      'images/profile.png',
+                    Image.network(
+                      'https://i.ibb.co/q1ZPHPd/profile.png',
                       height: 130,
                     ),
                     TextStroke(

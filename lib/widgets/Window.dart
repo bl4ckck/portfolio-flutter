@@ -34,7 +34,7 @@ class Window extends StatelessWidget {
           color: HexColor('#E9E8E9'),
           image: (image == null)
               ? null
-              : DecorationImage(image: AssetImage("$image"), fit: BoxFit.cover),
+              : DecorationImage(image: NetworkImage("$image"), fit: BoxFit.cover),
           boxShadow: [
             BoxShadow(
                 offset: Offset(0, 2), blurRadius: 5, color: Colors.black26)

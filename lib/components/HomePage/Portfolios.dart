@@ -26,11 +26,11 @@ class _PortfoliosState extends State<Portfolios> {
       'GoGo Travel'
     ];
     final List<String> imgList = [
-      'images/1.jpg',
-      'images/2.jpg',
-      'images/3.jpg',
-      'images/4.jpg',
-      'images/5.jpg'
+      'https://i.ibb.co/VMz6Q2y/1.jpg',
+      'https://i.ibb.co/3c3WNsN/2.jpg',
+      'https://i.ibb.co/gwHtzvf/3.jpg',
+      'https://i.ibb.co/T8vC1TG/4.jpg',
+      'https://i.ibb.co/5LZgPXb/5.jpg'
     ];
 
     return Window(
@@ -58,7 +58,7 @@ class _PortfoliosState extends State<Portfolios> {
                     width: widget.sizingInformation.localWidgetSize.width,
                     margin: EdgeInsets.symmetric(horizontal: 1.0),
                     decoration: BoxDecoration(
-                        image: DecorationImage(image: AssetImage("$i"))),
+                        image: DecorationImage(image: NetworkImage("$i"))),
                     child: TextStroke(
                       (current == index)
                             ? titleList[current]

@@ -17,7 +17,7 @@ class Skills extends StatelessWidget {
         title: 'skills',
         width: sizingInformation.localWidgetSize.width / 2 + 300,
         marginTop: 0,
-        image: 'images/vp3.jpg',
+        image: 'https://i.ibb.co/wwc96yH/vp3.jpg',
         sizingInformation: sizingInformation,
         widgets: <Widget>[
           SizedBox(
